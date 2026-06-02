@@ -197,4 +197,3 @@ Run through this before presenting a generated diagram:
 - [`examples/minimal.py`](examples/minimal.py) — smallest possible diagram (3 steps)
 - [`examples/ngsm_v1_sponsor.py`](examples/ngsm_v1_sponsor.py) — full sponsor view, 24 steps
 - [`examples/ngsm_v2_deep_dive.py`](examples/ngsm_v2_deep_dive.py) — full deep-dive, 43 steps
-- Live consumer: <https://github.com/ievsantillan/aer_economic-forecast-modelling> (NGSM modernization PoC)
