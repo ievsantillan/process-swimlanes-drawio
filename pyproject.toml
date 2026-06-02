@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "process-swimlanes-drawio"
+version = "0.1.0"
+description = "Generate draw.io swimlane diagrams (sponsor + deep-dive pattern) for business-process modernization."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Ian Santillan", email = "ievsantillan@users.noreply.github.com" },
+]
+keywords = ["drawio", "diagrams.net", "swimlane", "bpmn", "process-modeling", "modernization"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Office/Business",
+]
+# Zero runtime dependencies — stdlib only.
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ievsantillan/process-swimlanes-drawio"
+Repository = "https://github.com/ievsantillan/process-swimlanes-drawio"
+Issues = "https://github.com/ievsantillan/process-swimlanes-drawio/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/process_swimlanes"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = ["-v", "--strict-markers"]
