@@ -1,8 +1,7 @@
 """NGSM Annual Cycle — Sponsor View (v1) — reference example.
 
-Faithful port of the v1 swimlane currently maintained for the AER NGSM
-(Natural Gas Supply Model) modernization PoC at
-https://github.com/ievsantillan/aer_economic-forecast-modelling.
+Faithful port of the v1 swimlane maintained for the AER NGSM
+(Natural Gas Supply Model) modernization PoC.
 
 24 steps across 8 lanes:
     External Vendors → AER Data Services → Tim Mack (Test Judy macros)

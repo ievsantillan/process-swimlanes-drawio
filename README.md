@@ -94,7 +94,7 @@ python examples/minimal.py
 
 ## Real-world use
 
-The canonical real-world consumer is the [AER NGSM modernization PoC](https://github.com/ievsantillan/aer_economic-forecast-modelling), where the diagrams are committed alongside an `ASSUMPTIONS.md` registry (138 stable-ID rows) and per-workbook deep-dive analyses. Each step's `refs` field points back to one or more `ASSUMPTIONS.md` rows so the diagram is a navigation surface, not just art.
+A real-world consumer is the AER NGSM (Natural Gas Supply Model) modernization PoC, where the diagrams are committed alongside an `ASSUMPTIONS.md` registry (138 stable-ID rows) and per-workbook deep-dive analyses. Each step's `refs` field points back to one or more `ASSUMPTIONS.md` rows so the diagram is a navigation surface, not just art.
 
 ## For AI agents
 
