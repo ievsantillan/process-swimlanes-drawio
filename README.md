@@ -82,8 +82,6 @@ The dynamic legend only shows kinds your steps actually use. Custom palettes are
 | File | What it shows |
 |---|---|
 | [`examples/minimal.py`](examples/minimal.py) | 3-step "Hello World" — smallest useful diagram |
-| [`examples/ngsm_v1_sponsor.py`](examples/ngsm_v1_sponsor.py) | Full 24-step NGSM sponsor view from the AER PoC |
-| [`examples/ngsm_v2_deep_dive.py`](examples/ngsm_v2_deep_dive.py) | 43-step deep-dive — macro internals, dead code, vintage-stale annotations |
 
 Run any example:
 
